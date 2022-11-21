@@ -4,6 +4,7 @@ import Image from "next/image";
 import About from "../components/About";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import WorkExperience from "../components/WorkExperience";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -15,7 +16,6 @@ export default function Home() {
 
       <Header />
 
-      {/* <Hero /> */}
       <section id="hero" className="snap-start">
         <Hero />
       </section>
@@ -23,7 +23,9 @@ export default function Home() {
         <About />
       </section>
 
-      {/* <Experience /> */}
+      <section id="workexperience" className="snap-center">
+        <WorkExperience />
+      </section>
 
       {/* <Skills /> */}
 
